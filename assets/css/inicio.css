@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#img-profile {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 167px;
+  right: 790px;
+  z-index: 1;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#img-nieta {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 1100px;
+  right: -100px;
+  z-index: 1;
+  width: 480px;
+  border-radius: 50%;
+}
+
+#home img {
+  width: 100%;
+  height: 1400px;
+  margin-top: 4px;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.logo-container {
+  padding-left: 24px;
+}
+
+.navbar-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 32px;
+  right: 1033px;
+  z-index: 1;
+  font-family: "Sacramento", cursive;
+  color: dimgrey;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.tooltip {
+  font-family: "Roboto", sans-serif;
+  visibility: hidden;
+  position: absolute;
+  background-color: dimgrey;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  top: 70px;
+  right: 1170px;
+}
+
+.logo-container:hover .tooltip {
+  visibility: visible;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin-right: 40px;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: DimGray;
+}
+
+.navbar-list li:hover a {
+  color: OrangeRed;
+}
+
+.navbar-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.home-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: dimgrey;
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+}
+
+.home-text1 {
+  top: 120px;
+  right: 583px;
+  font-size: 24px;
+}
+
+.home-text2 {
+  top: 160px;
+  right: 240px;
+  font-size: 24px;
+  color: OrangeRed;
+}
+
+.home-text2:hover {
+  color: dimgrey;
+}
+
+.home-text3 {
+  top: 210px;
+  right: -80px;
+}
+
+.home-text3 span:hover {
+  color: OrangeRed;
+}
+
+.home-text4 {
+  top: 250px;
+  right: -36px;
+}
+
+.home-text4 span:hover {
+  color: OrangeRed;
+}
+
+.home-text5 {
+  top: 290px;
+  right: -108px;
+}
+
+.home-text5 span:hover {
+  color: OrangeRed;
+}
+
+.home-text6 {
+  top: 330px;
+  right: -210px;
+}
+
+.home-text6 span:hover {
+  color: OrangeRed;
+}
+
+.home-text7 {
+  font-family: "Sacramento", cursive;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  top: 399px;
+  right: 85px;
+}
+
+.home-text7 #pilar {
+  font-size: 48px;
+  color: orangered;
+}
+
+.home-text7 span:hover {
+  color: OrangeRed;
+}
+
+.bg-text-end {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 1172px;
+  right: -300px;
+}
+
+.text-end {
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 20px;
+  width: 720px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-content-home {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons-home a {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 20px;
+}
+
+.social-icons-home a:hover {
+  color: orangered;
+}
+
+.social-icons a {
+  color: #000;
+  font-size: 40px;
+  margin: 0 20px;
+}
+
+.social-icons a:hover {
+  color: orangered;
+}
+
+.footer-text {
+  font-family: "Comfortaa", cursive;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tools-icon a {
+  text-decoration: none;
+}

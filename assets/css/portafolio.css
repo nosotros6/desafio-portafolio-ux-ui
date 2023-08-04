@@ -1,0 +1,185 @@
+body{
+  margin: 0; 
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-image:url('/assets/img/caquipp.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.end-main {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.end-main img {
+  width: 100%;
+  height: 120px; 
+  object-fit: cover; 
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+}
+
+.logo-container {
+  padding-left: 24px;
+}
+
+.navbar-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 32px;
+  right: 1033px;
+  z-index: 1;
+  font-family: "Sacramento", cursive;
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.tooltip {
+  font-family: "Roboto", sans-serif;
+  visibility: hidden;
+  position: absolute;
+  background-color: dimgrey;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  top: 70px;
+  right: 1170px;
+}
+
+.logo-container:hover .tooltip {
+  visibility: visible;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin-right: 40px;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-list li:hover a {
+  color: OrangeRed;
+}
+
+.navbar-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.breadcrumb-content {
+  margin: 40px;
+}
+
+.breadcrumb-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  margin-left: -8px;
+  margin-bottom: 72px;
+  color: #fff;
+}
+
+.breadcrumb-content #breadcrumb-item {
+  color: orangered;
+}
+
+.nav-link{
+  color: dimgrey;
+}
+
+.nav-link:hover{
+  color: white;
+  background: rgb(210, 209, 209);
+}
+
+.nav-pills{
+  margin-left: 20rem !important;
+}
+
+.nav-pills .nav-link.active {
+ background-color: orangered;
+}
+
+.tab-text{
+  margin: 40px 120px;
+}
+
+.containerImgOneStock {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.containerImgOneStock img {
+  width: 50%;
+  max-width: 480px;
+}
+
+.footer-content-home {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.social-icons-home a {
+  color: #fff;
+  font-size: 32px;
+  margin: 0 20px;
+}
+
+.social-icons-home a:hover {
+  color: orangered;
+}
+
+.footer-text {
+  font-family: "Comfortaa", cursive;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tools-icon a{
+  text-decoration: none;
+}
