@@ -57,12 +57,11 @@ header {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 32px;
-  right: 1033px;
+  right: 1060px;
   z-index: 1;
-  font-family: "Sacramento", cursive;
+  font-family: "Comfortaa", cursive;
   color: dimgrey;
-  font-size: 24px;
-  font-style: italic;
+  font-size: 16px;
   font-weight: 200;
 }
 
@@ -126,14 +125,14 @@ header {
 
 .home-text1 {
   top: 120px;
-  right: 583px;
+  right: 640px;
   font-size: 24px;
 }
 
 .home-text2 {
   top: 160px;
-  right: 240px;
-  font-size: 24px;
+  right: 226px;
+  font-size: 20px;
   color: OrangeRed;
 }
 
@@ -146,13 +145,27 @@ header {
   right: -80px;
 }
 
+#special-font {
+  font-family: "Vidaloka", serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#special-font1 {
+  font-family: "Vidaloka", serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
 .home-text3 span:hover {
   color: OrangeRed;
 }
 
 .home-text4 {
   top: 250px;
-  right: -36px;
+  right: -70px;
 }
 
 .home-text4 span:hover {
@@ -170,7 +183,7 @@ header {
 
 .home-text6 {
   top: 330px;
-  right: -210px;
+  right: -181px;
 }
 
 .home-text6 span:hover {

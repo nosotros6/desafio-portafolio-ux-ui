@@ -41,12 +41,11 @@ header {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 32px;
-  right: 1033px;
+  right: 1060px;
   z-index: 1;
-  font-family: "Sacramento", cursive;
+  font-family: "Comfortaa", cursive;
   color: #fff;
-  font-size: 24px;
-  font-style: italic;
+  font-size: 16px;
   font-weight: 200;
 }
 
