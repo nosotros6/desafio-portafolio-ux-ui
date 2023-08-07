@@ -125,14 +125,14 @@ header {
 
 .home-text1 {
   top: 120px;
-  right: 640px;
+  right: 610px;
   font-size: 24px;
 }
 
 .home-text2 {
   top: 160px;
   right: 226px;
-  font-size: 20px;
+  font-size: 24px;
   color: OrangeRed;
 }
 
@@ -142,34 +142,28 @@ header {
 
 .home-text3 {
   top: 210px;
-  right: -80px;
+  right: 47px;
 }
 
 #special-font {
   font-family: "Vidaloka", serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 3px;
-}
-
-#special-font1 {
-  font-family: "Vidaloka", serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 3px;
+  color: orangered;
 }
 
 .home-text3 span:hover {
-  color: OrangeRed;
+  color: orangeRed;
 }
 
 .home-text4 {
   top: 250px;
-  right: -70px;
+  right: -48px;
 }
 
 .home-text4 span:hover {
-  color: OrangeRed;
+  color: orangeRed;
 }
 
 .home-text5 {
