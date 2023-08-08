@@ -49,9 +49,17 @@
         </nav>
     </header>
     <main>
-        <section class="breadcrumb-content">
-            <p>Inicio - Trabajos - Estudios - Portafolio - <span id="breadcrumb-item">Contacto</span></p>
-        </section>
+        <section class="breadcrumb-content pt-5 pb-3">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="./trabajos.html">Trabajos</a></li>
+                <li class="breadcrumb-item"><a href="./estudios.html">Estudios</a></li>
+                <li class="breadcrumb-item"><a href="./portafolio.html">Portafolio</a></li>
+                <li class="breadcrumb-item active text-black"  aria-current="page">Contacto</li>
+              </ol>
+            </nav>
+          </section>
         <form id="contact-form" action="#" method="POST">
             <div class="form-group">
                 <label for="nombre">Nombre:</label>

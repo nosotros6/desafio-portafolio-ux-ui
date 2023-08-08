@@ -32,7 +32,6 @@ main::before {
 }
 
 .logo-container {
-  /* position: relative; */
   padding-left: 24px;
 }
 
@@ -94,19 +93,8 @@ main::before {
   border-radius: 50%;
 }
 
-.breadcrumb-content p {
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  margin-left: -8px;
-  margin-bottom: 72px;
-  padding-top: 40px;
-  margin-left: 24px;
-  margin-bottom: 72px;
-  color: #fff;
-}
-
-.breadcrumb-content #breadcrumb-item {
-  color: orangered;
+.breadcrumb-content {
+  margin-left: 40px;
 }
 
 #contact-form {

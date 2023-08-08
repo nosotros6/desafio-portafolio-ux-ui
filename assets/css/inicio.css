@@ -263,61 +263,6 @@ header {
   text-decoration: none;
 }
 
-/* @media screen and (max-width: 768px) {
-  .home-text1 {
-    font-size: 16px;
-    top: 82px;
-    right: 95px;
-  }
-  .home-text2 {
-    font-size: 14px;
-    top: 150px;
-    right: -64px;
-  }
-  .home-text3 {
-    font-size: 14px;
-    top: 180px;
-    right: -173px;
-    color: transparent;
-  }
-  .home-text4 {
-    font-size: 12px;
-    top: 176px;
-    right: -148px;
-    color: transparent;
-  }
-  .home-text5 {
-    font-size: 12px;
-    top: 204px;
-    right: -173px;
-    color: transparent;
-  }
-  .home-text6 {
-    font-size: 12px;
-    top: 330px;
-    right: -181px;
-    color: transparent;
-  }
-  #img-profile {
-    display: none;
-  }
-  #img-nieta {
-    display: none;
-  }
-  .navbar-text {
-    display: none;
-  }
-  .bg-text-end {
-display: none;
-  }
-  .text-end {
-display: none;
-  }
-  .search-container {
-    max-width: 80%;
-  }
-} */
-
 @media (min-width: 768px) and (max-width: 1270px) {
   .navbar-text {
     display: none;
