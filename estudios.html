@@ -23,47 +23,54 @@
 
 <body>
   <header>
-    <nav class="navbar">
-      <div class="logo-container">
-        <a href="inicio.html">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="logo-container container-fluid">
+        <a class="navbar-brand" href="inicio.html" style="color: white;">
           <img src="./assets/img/favicon1.svg" alt="Logo de usuario" class="logo" />
-          <span class="tooltip">INICIO</span>
+          <span class="navbar-text">Pilar García</span>
+          <span class="custom-tooltip">INICIO</span>
         </a>
-        <span class="navbar-text">Pilar García</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-list navbar-nav ms-auto">
+            <li class="navbar-item"><a href="inicio.html">Inicio</a>
+            </li>
+            <li class="navbar-item"><a href="trabajos.html">Trabajos</a></li>
+            <li class="navbar-item"><a style="color: orangered; font-family: Roboto, sans-serif; "
+                href="estudios.html">Estudios</a></li>
+            <li class="navbar-item"><a href="portafolio.html">Portafolio</a></li>
+            <li class="navbar-item"><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
       </div>
-      <ul class="navbar-list">
-        <li class="navbar-item"><a href="inicio.html">Inicio</a></li>
-        <li class="navbar-item"><a href="trabajos.html">Trabajos</a></li>
-        <li class="navbar-item">
-          <a style="color: orangered; font-family: Roboto, sans-serif" href="estudios.html">Estudios</a>
-        </li>
-        <li class="navbar-item"><a href="portafolio.html">Portafolio</a></li>
-        <li class="navbar-item"><a href="contacto.html">Contacto</a></li>
-      </ul>
     </nav>
-  </header>
-  <main class="container-fluid">
-    <section class="breadcrumb-content">
+    <section class="breadcrumb-content pt-5">
       <p>
         Inicio - Trabajos - <span id="breadcrumb-item">Estudios</span> -
         Portafolio - Contacto
       </p>
     </section>
+  </header>
+  <main class="container-fluid">
     <div class="row">
-      <div class="col-sm-4 d-flex align-items-center justify-content-center">
+      <div class="col-lg-4 d-flex align-items-center justify-content-center">
         <section class="card">
           <div class="d-flex justify-content-center">
-            <img src="./assets/img/insignia-google-down.png" id="insignia-google2" class="card-img-top" alt="Insignia Google Diseño Ux-Ui">
+            <img src="./assets/img/insignia-google-down.png" id="insignia-google2" class="card-img-top"
+              alt="Insignia Google Diseño Ux-Ui">
           </div>
-            <h3 class="card-title">Diseño Ux/Ui</h3>
-            <h4 class="card-subtitle">Google Inc. / Infocap</h4>
-            <p class="card-info">
-              Segundo semestre de 2022 (diurno)
-            </p>
-            <a href="https://www.coursera.org/google/" class="card-link">Ver sitio web</a>   
+          <h3 class="card-title">Diseño Ux/Ui</h3>
+          <h4 class="card-subtitle">Google Inc. / Infocap</h4>
+          <p class="card-info">
+            Segundo semestre de 2022 (diurno)
+          </p>
+          <a href="https://www.coursera.org/google/" class="card-link">Ver sitio web</a>
         </section>
       </div>
-      <div class="col-sm-4 d-flex align-items-center justify-content-center">
+      <div class="col-lg-4 d-flex align-items-center justify-content-center">
         <section class="card">
           <div class="d-flex justify-content-center">
             <img src="./assets/img/insignia-content.png" id="insignia-content" class="card-img-top"
@@ -77,7 +84,7 @@
           <a href="https://talentodigitalparachile.cl/" class="card-link">Ver sitio web</a>
         </section>
       </div>
-      <div class="col-sm-4 d-flex align-items-center justify-content-center">
+      <div class="col-lg-4 d-flex align-items-center justify-content-center">
         <section class="card">
           <div class="d-flex justify-content-center">
             <img src="./assets/img/insignia-front.png" id="insignia-front" class="card-img-top"
@@ -91,7 +98,7 @@
           <a href="https://talentodigitalparachile.cl/" class="card-link">Ver sitio web</a>
         </section>
       </div>
-      <div class="col-sm-4 d-flex justify-content-center pb-5">
+      <div class="col-12 col-lg-4 d-flex justify-content-center pb-5">
         <section class="card-inferior">
           <div class="d-flex justify-content-center mb-5">
             <img src="./assets/img/Le-Wagon.png" class="card-img-top-inferior" alt="Certificado Desarrollo web" />
@@ -104,10 +111,11 @@
           <a href="https://www.lewagon.com/es" class="card-link">Ver sitio web</a>
         </section>
       </div>
-      <div class="col-sm-4 d-flex align-items-center justify-content-center pb-5">
+      <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center pb-5">
         <section class="card-inferior">
           <div class="d-flex justify-content-center mb-5">
-            <img src="./assets/img/Simon-de-Cirene.png" class="card-img-top-inferior" alt="Certificado marketin digital" />
+            <img src="./assets/img/Simon-de-Cirene.png" class="card-img-top-inferior"
+              alt="Certificado marketin digital" />
           </div>
           <h3 class="card-title">Marketing Digital</h3>
           <h4 class="card-subtitle">Fundación Simón de Cirene</h4>
@@ -117,10 +125,11 @@
           <a href="https://simondecirene.cl/" class="card-link">Ver sitio web</a>
         </section>
       </div>
-      <div class="col-sm-4 d-flex align-items-center justify-content-center pb-5">
+      <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center pb-5">
         <section class="card-inferior">
           <div class="d-flex justify-content-center mb-5">
-            <img src="./assets/img/U-de-Chile.png" class="card-img-top-inferior" alt="Periodista de la Universidad de Chile" />
+            <img src="./assets/img/U-de-Chile.png" class="card-img-top-inferior"
+              alt="Periodista de la Universidad de Chile" />
           </div>
           <h3 class="card-title">Título en Periodismo</h3>
           <h4 class="card-subtitle">Universidad de Chile</h4>
@@ -132,16 +141,23 @@
       </div>
     </div>
   </main>
+  <section class="search-container container mt-3 mb-4 ms-5">
+    <form class="d-flex">
+      <input class="form-control me-2 ms-auto" type="search" placeholder="Buscar" aria-label="Search">
+      <button class="btn btn-secondary" type="submit">Buscar</button>
+    </form>
+  </section>
+  <aside class="end-main">
+    <div class="image-overlay"></div>
+    <img src="./assets/img/caquipp.png" alt="Fondo con árbol de caquis">
+  </aside>
   <footer class="footer-content-home">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <p class="footer-text">Habilidades & Competencias</p>
           <p class="tools-icon" align="center">
-            <a href="https://babeljs.io/" target="_blank" rel="noreferrer"><img
-                src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40"
-                height="40" /><span class="tooltip"></span></a><a href="https://getbootstrap.com" target="_blank"
-              rel="noreferrer"><img
+            <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
                 alt="bootstrap" width="40" height="40" /></a>
             <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">

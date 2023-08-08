@@ -1,12 +1,12 @@
-body{
-  margin: 0; 
+body {
+  margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
 header {
   position: relative;
-  background-image:url('/assets/img/caquipp.png');
+  background-image: url("/assets/img/caquipp.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,10 +17,13 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(250, 250, 250, 0.2); 
+    background-color: rgba(250, 250, 250, 0.2);
   }
 }
 
+main {
+  padding-top: 80px;
+}
 .end-main {
   position: relative;
   width: 100%;
@@ -30,8 +33,8 @@ header {
 
 .end-main img {
   width: 100%;
-  height: 120px; 
-  object-fit: cover; 
+  height: 120px;
+  object-fit: cover;
 }
 
 .end-main .image-overlay {
@@ -40,11 +43,10 @@ header {
   left: 0;
   width: 100%;
   height: 120px;
-  background-color: rgba(250, 250, 250, 0.2); 
+  background-color: rgba(250, 250, 250, 0.2);
 }
 
 .navbar {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,23 +71,19 @@ header {
   font-weight: 200;
 }
 
-.tooltip {
+.custom-tooltip {
   font-family: "Roboto", sans-serif;
-  visibility: hidden;
-  position: absolute;
-  background-color: dimgrey;
+  font-size: 14px;
+  background-color: orangered;
   color: #fff;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 4px;
-  font-size: 12px;
-  z-index: 1;
-  transform: translate(-50%, -50%);
-  top: 70px;
-  right: 1170px;
-}
-
-.logo-container:hover .tooltip {
-  visibility: visible;
+  position: absolute;
+  bottom: -25px;
+  left: 8%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  display: none;
 }
 
 .navbar-list {
@@ -137,24 +135,28 @@ header {
   color: orangered;
 }
 
-.nav-link{
+.nav-link {
   color: dimgrey;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: white;
   background: rgb(210, 209, 209);
 }
 
-.nav-pills{
-  margin-left: 20rem !important;
+.nav-pills {
+  margin-left: 30rem !important;
 }
 
 .nav-pills .nav-link.active {
- background-color: orangered;
+  background-color: orangered;
 }
 
-.tab-text{
+.nav-item{
+  margin-right: 56px;
+}
+
+.tab-text {
   margin: 40px 120px;
 }
 
@@ -199,6 +201,42 @@ header {
   color: #fff;
 }
 
-.tools-icon a{
+.tools-icon a {
   text-decoration: none;
+}
+
+@media (max-width: 768px){
+  .nav-pills {
+    display: flex!important ;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 0rem !important;
+  }
+  .nav-item{
+    margin-right: 0;
+  }
+  .tab-text {
+    margin: 40px;
+  }
+  .search-container {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1024px){
+  .nav-pills {
+    display: flex!important ;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: -0.6rem !important;
+  }
+  .nav-item{
+    margin-right: 16px;
+  }
+  .title-tab {
+    font-size: 20px;
+  }
+  .sutitle-tab {
+    font-size: 1rem !important;
+  }
 }
