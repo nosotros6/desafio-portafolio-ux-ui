@@ -7,11 +7,11 @@ header {
   top: 0;
   left: 0;
   width: 100vw;
+  z-index: 1;
   background-color: #fff;
-  z-index: 999;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #img-profile {
@@ -47,9 +47,9 @@ header {
   align-items: center;
   width: 100vw;
   margin: 0;
+  padding: 0;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 0;
 }
 
 .logo-container {
@@ -63,24 +63,24 @@ header {
   right: 1060px;
   z-index: 1;
   font-family: "Comfortaa", cursive;
-  color: dimgrey;
   font-size: 16px;
   font-weight: 200;
+  color: dimgrey;
 }
 
 .custom-tooltip {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  background-color: orangered;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 4px;
   position: absolute;
   bottom: -25px;
   left: 8%;
   transform: translateX(-50%);
   white-space: nowrap;
   display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: orangered;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .navbar-list {
@@ -129,79 +129,6 @@ header {
   max-width: 580px;
 }
 
-.home-text2 {
-  top: 164px;
-  right: -14px;
-  font-size: 24px;
-  color: OrangeRed;
-}
-
-.home-text2:hover {
-  color: dimgrey;
-}
-
-.home-text3 {
-  top: 210px;
-  right: 47px;
-}
-
-#special-font {
-  font-family: "Vidaloka", serif;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  color: orangered;
-}
-
-.home-text3 span:hover {
-  color: orangeRed;
-}
-
-.home-text4 {
-  top: 250px;
-  right: -48px;
-}
-
-.home-text4 span:hover {
-  color: orangeRed;
-}
-
-.home-text5 {
-  top: 290px;
-  right: -108px;
-}
-
-.home-text5 span:hover {
-  color: OrangeRed;
-}
-
-.home-text6 {
-  top: 330px;
-  right: -181px;
-}
-
-.home-text6 span:hover {
-  color: OrangeRed;
-}
-
-.home-text7 {
-  font-family: "Sacramento", cursive;
-  font-size: 36px;
-  font-style: italic;
-  font-weight: 200;
-  top: 399px;
-  right: 85px;
-}
-
-.home-text7 #pilar {
-  font-size: 48px;
-  color: orangered;
-}
-
-.home-text7 span:hover {
-  color: OrangeRed;
-}
-
 .bg-text-end {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -210,27 +137,27 @@ header {
 }
 
 .text-end {
+  width: 720px;
   font-family: "Comfortaa", cursive;
   font-size: 20px;
-  font-style: italic;
   font-weight: 700;
-  padding: 20px;
-  width: 720px;
+  font-style: italic;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
 }
 
 .footer-content-home {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: #fff;
-  padding: 20px;
   text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
 }
 
 .social-icons-home a {
-  color: #fff;
   font-size: 40px;
+  color: #fff;
   margin: 0 20px;
 }
 
@@ -239,8 +166,8 @@ header {
 }
 
 .social-icons a {
-  color: #000;
   font-size: 40px;
+  color: #000;
   margin: 0 20px;
 }
 
@@ -261,54 +188,6 @@ header {
 
 .tools-icon a {
   text-decoration: none;
-}
-
-@media (min-width: 768px) and (max-width: 1270px) {
-  .navbar-text {
-    display: none;
-  }
-  #img-profile {
-    display: none;
-  }
-  #img-nieta {
-    display: none;
-  }
-  .home-text1 {
-    top: 170px;
-    right: -160px;
-    font-size: 16px;
-    max-width: 580px;
-  }
-  /* .home-text1 {
-    font-size: 20px;
-    top: 100px;
-    right: 457px;
-  } */
-  /* .home-text2 {
-    font-size: 20px;
-    top: 140px;
-    right: 156px;
-  }
-  .home-text3 {
-    font-size: 14px;
-    top: 180px;
-    right: -34px;
-  }
-  .home-text4 {
-    font-size: 14px;
-    top: 212px;
-    right: -55px;
-  }
-  .home-text5 {
-    font-size: 14px;
-    top: 244px;
-    right: -99px;
-  }
-  .home-text6 {
-    font-size: 14px;
-    top: 274px;
-    right: -140px;
-  } */
 }
 
 @media (max-width: 767px) {
@@ -335,5 +214,23 @@ header {
   }
   .text-end {
     max-width: 180px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1270px) {
+  .navbar-text {
+    display: none;
+  }
+  #img-profile {
+    display: none;
+  }
+  #img-nieta {
+    display: none;
+  }
+  .home-text1 {
+    top: 170px;
+    right: -160px;
+    font-size: 16px;
+    max-width: 580px;
   }
 }

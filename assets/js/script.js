@@ -1,13 +1,3 @@
-// const logoContainer = document.querySelector(".logo-container");
-// const customTooltip = document.querySelector(".custom-tooltip");
-
-// logoContainer.addEventListener("mouseover", function () {
-//   customTooltip.style.display = "block"; // Mostrar el tooltip al pasar el cursor sobre el div
-// });
-
-// logoContainer.addEventListener("mouseout", function () {
-//   customTooltip.style.display = "none"; // Ocultar el tooltip al quitar el cursor del div
-// });
 function obtenerFechaActual() {
   const dias = [
     "domingo",

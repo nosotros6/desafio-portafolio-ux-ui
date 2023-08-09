@@ -1,25 +1,8 @@
 body {
-  margin: 0;
   min-height: 100vh;
+  margin: 0;
   padding: 0;
 }
-
-/* header {
-  position: relative;
-  background-image: url("/assets/img/caquipp.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(250, 250, 250, 0.2);
-  }
-} */
 
 .navbar {
   display: flex;
@@ -27,9 +10,9 @@ body {
   align-items: center;
   width: 100%;
   margin: 0px;
+  padding: 0;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 0;
 }
 
 .logo-container {
@@ -43,24 +26,24 @@ body {
   right: 1060px;
   z-index: 1;
   font-family: "Comfortaa", cursive;
-  color: dimgrey;
   font-size: 16px;
   font-weight: 200;
+  color: dimgrey;
 }
 
 .custom-tooltip {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  background-color: orangered;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 4px;
   position: absolute;
   bottom: 8px;
   left: 17%;
   transform: translateX(-50%);
   white-space: nowrap;
   display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: orangered;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .tooltip-footer {
@@ -69,13 +52,13 @@ body {
   transform: translate(-50%, -50%);
   top: 128px;
   right: 900px;
-  background-color: dimgrey;
+  z-index: 1;
   font-family: "Roboto", sans-serif;
+  font-size: 12px;
   color: #fff;
+  background-color: dimgrey;
   padding: 5px;
   border-radius: 4px;
-  font-size: 12px;
-  z-index: 1;
 }
 
 .skills:hover .tooltip {
@@ -114,30 +97,31 @@ body {
 }
 
 .breadcrumb-content {
+  font-size: 12px;
   margin-top: 40px;
   margin-left: 40px;
 }
 
 .card {
   position: relative;
-  background-color: rgba(250, 250, 250, 0.8);
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 200px 20px 40px 20px;
-  margin: 160px 20px 40px 20px;
   text-align: center;
   width: 18rem;
+  background-color: rgba(250, 250, 250, 0.8);
+  margin: 160px 20px 40px 20px;
+  padding: 200px 20px 40px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card-inferior {
   position: relative;
+  width: 18rem;
+  text-align: center;
   background-color: rgba(250, 250, 250, 0.8);
+  margin: 160px 20px 40px 20px;
+  padding: 40px 20px 40px 20px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 40px 20px 40px 20px;
-  margin: 160px 20px 40px 20px;
-  text-align: center;
-  width: 18rem;
 }
 
 .card-title {
@@ -162,8 +146,8 @@ body {
 
 .card-link {
   font-family: "Roboto", sans-serif;
-  color: #007bff;
   font-style: italic;
+  color: #007bff;
   margin-bottom: 20px;
 }
 
@@ -211,15 +195,15 @@ body {
 
 .footer-content-home {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: #fff;
-  padding: 20px 0px;
   text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px 0px;
 }
 
 .social-icons-home a {
-  color: #fff;
   font-size: 32px;
+  color: #fff;
   margin: 0 20px;
 }
 
