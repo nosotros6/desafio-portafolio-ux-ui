@@ -179,12 +179,6 @@ button:hover {
   text-decoration: none;
 }
 
-@media (max-width: 575.98px) {
-  #contact-form {
-    max-width: 320px;
-  }
-}
-
 @media (max-width: 768px) {
   #contact-form {
     max-width: 520px;

@@ -48,7 +48,7 @@ form.addEventListener("submit", function (event) {
       "Por favor, ingrese un correo válido: con @ y extensión final después del punto."
     );
   } else {
-    alert("El correo fue enviado exitosamente");
+    alert("El correo fue enviado exitosamente (éste es un formulario de prueba con fines académicos. Para contactarme, por favor, usar mis datos personales, ubicados en el footer).");
     limpiarFormulario(); 
   }
 });
