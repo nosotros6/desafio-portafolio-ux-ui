@@ -17,7 +17,7 @@ header {
 #img-profile {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 200px;
+  top: 220px;
   right: 790px;
   z-index: 1;
   width: 200px;
@@ -27,10 +27,10 @@ header {
 #img-nieta {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 980px;
-  right: 280px;
+  top: 1100px;
+  right: -100px;
   z-index: 1;
-  width: 480px;
+  width: 400px;
   border-radius: 50%;
 }
 
@@ -133,18 +133,18 @@ header {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 1111px;
-  right: -300px;
+  right: 378px;
 }
 
-.text-end {
-  width: 720px;
+.texto-final {
+  width: 600px;
   font-family: "Comfortaa", cursive;
   font-size: 20px;
   font-weight: 700;
   font-style: italic;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
-  padding: 20px;
+  padding: 20px 20px 20px 200px;
 }
 
 .footer-content-home {
